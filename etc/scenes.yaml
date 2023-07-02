@@ -1,0 +1,10 @@
+---
+spaceadventure:
+  scenes:
+    - name: bienvenue
+      answer: jimmy
+      message: |
+        Salut inconnu.e, soit le bienvenu dans le jeu Space Adventure.
+        Nous comptons sur ton courage, ta coopération et ta réfléxion pour avancer dans les différentes quêtes.
+        Si tu es prêt à jouer, communique moi ton prénom.
+      illustration: ~
