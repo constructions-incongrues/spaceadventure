@@ -13,7 +13,7 @@ make start
 - [] Lancement du jeu via commande : start
 - [] Mettre en couleur "1999" sur l'écran "Crédits'
 - [] Afficher écran crédits
-- [] Ecran "Victoire
+- [] Ecran "Victoire"
 - [] Feu d'artifice https://asciinema.org/a/94454
 - [] Message d'erreur si choix de la mauvaise porte
 - [] Embranchement porte piège
