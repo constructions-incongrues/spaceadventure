@@ -2,7 +2,6 @@ from asciimatics.event import KeyboardEvent
 from asciimatics.widgets import Frame
 from asciimatics.exceptions import NextScene
 from asciimatics.widgets import Frame, Layout, Label, Text
-import textwrap
 
 class SpaceAdventureFrame(Frame):
     def __init__(self, screen, image="IMAGE", message="MESSAGE", theme="monochrome", answers=[]):

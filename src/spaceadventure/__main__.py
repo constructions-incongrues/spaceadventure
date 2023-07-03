@@ -5,6 +5,7 @@ from asciimatics.scene import Scene
 from asciimatics.screen import Screen
 from asciimatics.renderers import FigletText, Rainbow
 from frame import SpaceAdventureFrame
+import transition
 import sys
 
 def _unhandled_input(event):
@@ -12,20 +13,6 @@ def _unhandled_input(event):
         raise NextScene
     else:
         return event
-
-def julia(screen, duration=5):
-    effects = [Julia(screen)]
-
-    return Scene(effects, duration)
-
-
-def noise(screen, text=None, duration=5):
-    if text is None:
-        effects = [RandomNoise(screen)]
-    else:
-        effects = [RandomNoise(screen, signal=Rainbow(screen, FigletText(text)))]
-
-    return Scene(effects, duration)
 
 def title(screen):
     effects = [
@@ -45,8 +32,9 @@ def title(screen):
 def run(screen, scene):
     scenes = [
         # title
-        julia(screen),
+        transition.noise(screen, duration=60),
         title(screen),
+        transition.julia(screen, duration=15),
 
         # 01
         Scene([
@@ -64,9 +52,9 @@ Je vois que tu es prêt à relever ce défi.
             ),
             Stars(screen, 200)
         ]),
+        transition.julia(screen, duration=15),
 
-        noise(screen),
-
+        # 02
         Scene([
             SpaceAdventureFrame(
                 screen,
@@ -383,6 +371,4 @@ if __name__ == "__main__":
             sys.exit(0)
         except ResizeScreenError:
             pass
-
-
 
