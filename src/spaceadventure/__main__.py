@@ -340,7 +340,7 @@ voyage à travers les étoiles.
      `"""""""`
                 """,
                 message="""
-Félicitation !
+Victoire ! 
 Le vaisseau Vandervecken est sous controle.
 Cyrus est neutralisé.
 Votre mission est désormais terminé.
