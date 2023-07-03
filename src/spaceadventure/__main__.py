@@ -32,7 +32,7 @@ def title(screen):
 def run(screen, scene):
     scenes = [
         # title
-        transition.noise(screen, duration=60),
+        transition.noise(screen, duration=30),
         title(screen),
         transition.julia(screen, duration=15),
 

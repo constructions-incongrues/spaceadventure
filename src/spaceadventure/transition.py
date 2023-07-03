@@ -2,11 +2,6 @@ from asciimatics.effects import RandomNoise, Julia
 from asciimatics.renderers import FigletText, Rainbow
 from asciimatics.scene import Scene
 
-class SpaceAdventureTransition:
-    def __init__(self, screen, duration=5):
-        self.screen = screen
-        pass
-
 def julia(screen, duration=5):
     effects = [Julia(screen)]
 
