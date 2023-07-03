@@ -21,7 +21,10 @@ make start
 - [] intro à modifier : 
 -
 
-
+Salut inconnu.e, je suis Andrew Chapman, auteur d'ouvrages de jeux de rôles.
+Je viens de programmer le jeu d'aventure "Opération Edena".
+Courage, Coopération, Réfléxion, Déduction, tu auras besoins pour mener à bien cette aventure. 
+Si tu es prêt à jouer. 
 
 Quel est-ton nom cosmonaute ? 
 
