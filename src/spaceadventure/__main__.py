@@ -1,9 +1,9 @@
 from asciimatics.event import KeyboardEvent
-from asciimatics.effects import Stars, Cycle, RandomNoise, Julia
+from asciimatics.effects import Stars, Cycle, Print
 from asciimatics.exceptions import NextScene, ResizeScreenError
 from asciimatics.scene import Scene
 from asciimatics.screen import Screen
-from asciimatics.renderers import FigletText
+from asciimatics.renderers import FigletText, SpeechBubble
 from frame import SpaceAdventureFrame
 import transition
 import sys
@@ -24,7 +24,11 @@ def title(screen):
             screen,
             FigletText("ADVENTURE", font='big'),
             int(screen.height / 2 + 3)),
-        Stars(screen, 200)
+        Stars(screen, screen.width),
+        Print(screen,
+              SpeechBubble("Press space to see it again"),
+              y=screen.height - 3,
+              start_frame=300)
     ]
 
     return Scene(effects, -1)
@@ -49,7 +53,7 @@ Je vois que tu es prêt à relever ce défi.
                 """,
                 answers=["jimmy"]
             ),
-            Stars(screen, 200)
+            Stars(screen, screen.width)
         ]),
         transition.noise(screen, duration=5),
 
@@ -90,7 +94,7 @@ Au-dessus de votre planète se dessine l'ombre inquiétante d'un vaisseau spatia
                 """,
                 answers=["vandervecken"]
             ),
-            Stars(screen, 200)
+            Stars(screen, screen.width)
         ]),
         transition.noise(screen, duration=5),
 
@@ -126,7 +130,7 @@ se prépare à soumettre votre monde à ses effroyables expériences.
                 """,
                 answers=["cyrus"]
             ),
-            Stars(screen, 200)
+            Stars(screen, screen.width)
         ]),
         transition.noise(screen, duration=5),
 
@@ -157,7 +161,7 @@ pour mettre un terme aux sombres machinations de Cyrus
                 """,
                 answers=["oui"]
             ),
-            Stars(screen, 200)
+            Stars(screen, screen.width)
         ]),
 
         # 04
@@ -198,7 +202,7 @@ Pour y affronter Cyrus et les créatures qui le protègent.
                 """,
                 answers=True
             ),
-            Stars(screen, 200)
+            Stars(screen, screen.width)
         ]),
 
         # 05
@@ -211,8 +215,8 @@ Pour y affronter Cyrus et les créatures qui le protègent.
   / :  !  :  . \\          / :  !  :  . \\
  |_ ;   __:  ;  |        |_ ;   __:  ;  |
  )| .  :)(.  !  |        )| .  :)(.  !  |
- |"   (NOIRE)_  |        |"  (BLANCHE)_ |    
- |  :  ;`'  (_) (        |  :  ;`'  (_) (   
+ |"   (NOIRE)_  |        |"  (BLANCHE)_ |
+ |  :  ;`'  (_) (        |  :  ;`'  (_) (
  |  :  :  .     |        |  :  :  .     |
  )_ !  ,  ;  ;  |        )_ !  ,  ;  ;  |
  || .  .  :  :  |        || .  .  :  :  |
@@ -229,7 +233,7 @@ L'autre brille d'un blanc éclatant, presque aveuglant..
                 """,
                 answers=["noire", "blanche"]
             ),
-            Stars(screen, 200)
+            Stars(screen, screen.width)
         ]),
 
         # 06
@@ -259,7 +263,7 @@ L'autre brille d'un blanc éclatant, presque aveuglant..
 La porte s'ouvre, Cyrus est aux commandes de la console de pilotage.
 Il te tourne le dos et n'a pas l'air d'avoir remarqué ta présence.
 C'est l'occasion rêvée pour l'estourbir sans effort !
-Tu t'approches discrètement du fauteuil où est assez confortablement... UN MANEQUIN !
+Tu t'approches discrètement du fauteuil où est assez confortablement... UN MANNEQUIN !
 C'était un piège, Cyrus surgit d'une encoignure et te désarme.
 Il ne te reste plus qu'une chance : envoyer un message d'urgence depuis le transmetteur
 interplanétaire caché dans ta botte gauche à la seule personne en mesure de te sauver la mise.
@@ -269,7 +273,7 @@ interplanétaire caché dans ta botte gauche à la seule personne en mesure de t
                                 """,
                 answers=["james"]
             ),
-            Stars(screen, 200)
+            Stars(screen, screen.width)
         ]),
 
         # 06
@@ -321,51 +325,13 @@ voyage à travers les étoiles.
                                 """,
                 answers=["spaceshipctl open vandervecken"]
             ),
-            Stars(screen, 200)
+            Stars(screen, screen.width)
         ]),
 
         # 07
-        Scene([
-            SpaceAdventureFrame(
-                screen,
-                image="""
-          .--------._
-         (`--'       `-.
-          `.______      `.
-       ___________`__     \\
-    ,-'           `-.\\     |
-   //                \\|    |\\
-  (`  .'~~~~~---\\     \\'   | |
-   `-'           )     \\   | |
-      ,---------' - -.  `  . '
-    ,'             `%`\\`     |
-   /                      \\  |
-  /     \\-----.         \\    `
- /|  ,_/      '-._            |
-(-'  /           /            `     
-,`--<           |        \\     \\
-\\ |  \\         /%%             `\\
- |/   \\____---'--`%        \\     \\
- |    '           `               \\
- |
-  `--.__
-        `---._______
-                    `.
-                      \\
-                """,
-                message="""
-Victoire !
-Le vaisseau Vandervecken est sous controle.
-Cyrus est neutralisé.
-Votre mission est désormais terminé.
-Prochaine mission : Explorer Saturne
-                                """,
-                answers=True
-            ),
-            Stars(screen, 200)
-        ]),
+        transition.fireworks(screen, duration=300),
 
-        # 07
+        # 08
         Scene([
             SpaceAdventureFrame(
                 screen,
@@ -396,10 +362,9 @@ ____^/\\___^--____/\\____O______________/\\/\\---/\\___________---______________
                 message="",
                 answers=True
             ),
-            Stars(screen, 200)
+            Stars(screen, screen.width)
         ])
     ]
-
     screen.play(scenes, unhandled_input=_unhandled_input)
 
 last_scene = None

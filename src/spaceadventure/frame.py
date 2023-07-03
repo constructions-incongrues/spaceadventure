@@ -23,7 +23,9 @@ class SpaceAdventureFrame(Frame):
         self.add_layout(layout)
         label_height = len(self.image.split("\n")) + len(self.message.split("\n"))
         layout.add_widget(Label(label="%s\n%s" % (self.image, self.message), height=label_height), 0)
-        layout.add_widget(Text(name="answer", label="? "), 0)
+
+        if (self.answers is not True):
+            layout.add_widget(Text(name="answer", label="? "), 0)
 
         self.fix()
 
