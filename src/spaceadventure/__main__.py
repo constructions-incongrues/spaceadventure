@@ -329,7 +329,7 @@ voyage à travers les étoiles.
             SpaceAdventureFrame(
                 screen,
                 image="""
-   .--------._
+          .--------._
          (`--'       `-.
           `.______      `.
        ___________`__     \\
