@@ -45,7 +45,7 @@ Salut inconnu.e, soit le bienvenu dans le jeu Space Adventure.
 Nous comptons sur ton courage, ta coopération et ta réfléxion pour avancer dans les différentes quêtes.
 Je vois que tu es prêt à relever ce défi.
 
-> Comment t'appelles-tu, cosmonaute ?
+> Quel est ton nom, cosmonaute ?
                 """,
                 answers=["jimmy"]
             ),
@@ -207,7 +207,7 @@ pour y affronter Cyrus et les créatures qui le protègent.
                 image="""
       ______                  ______
    ,-' ;  ! `-.            ,-' ;  ! `-.
-  / :  !  :  . \          / :  !  :  . \
+  / :  !  :  . \\          / :  !  :  . \\
  |_ ;   __:  ;  |        |_ ;   __:  ;  |
  )| .  :)(.  !  |        )| .  :)(.  !  |
  |"   (NOIRE)_  |        |"   (BLANC)_  |    
@@ -234,24 +234,32 @@ Tu arpentes la coursive et découvre deux portes. L'une est noire, comme on en v
             SpaceAdventureFrame(
                 screen,
                 image="""
- -. -. `.  / .-' _.'  _
-     .--`. `. `| / __.-- _' `
-    '.-.  \  \ |  /   _.' `_
-    .-. \  `  || |  .' _.-' `.
-  .' _ \ '  -    -'  - ` _.-.
-   .' `. %%%%%   | %%%%% _.-.`-
- .' .-. ><(@)> ) ( <(@)>< .-.`.
-   (("`(   -   | |   -   )'"))
-  / \\#)\    (.(_).)    /(#//\
- ' / ) ((  /   | |   \  )) (`.`.
- .'  (.) \ .md88o88bm. / (.) \)
-   / /| / \ `Y88888Y' / \ | \ \
- .' / O  / `.   -   .' \  O \ \\
-  / /(O)/ /| `.___.' | \\(O) \
-   / / / / |  |   |  |\  \  \ \
-   / / // /|  |   |  |  \  \ \  VK
- _.--/--/'( ) ) ( ) ) )`\-\-\-._
-( ( ( ) ( ) ) ( ) ) ( ) ) ) ( ) )
+               /|
+  _______________)|.. 
+<'______________<(,_|) 
+           .((()))| )) << YEAAYAAAAEAAAARGH!! >>
+           (======)| \\
+          ((( "_"()|_ \\
+         '()))(_)/_/ ' )
+         .--/_\\ /(  /./
+        /'._.--\\ .-(_/
+       / / )\\___:___) 
+      ( -.'.._  |  /
+       \\  \\_\\ ( | )
+        '. /\\)_(_)|
+          '-|  XX |
+           %%%%%%%%
+          / %%%%%%%\\
+         ( /.-'%%%. \\ 
+        /(.'   %%\\ :|
+       / ,|    %  ) )
+     _|___)   %  (__|_
+     )___/       )___(
+      |x/      mrf\\ >
+      |x)         / '.
+      |x\\       _(____''.__
+    --\\ -\\--
+     --\\__|--
                 """,
                 message="""
 La porte s'ouvre, Cyrus est aux commandes de la console de pilotage. Il te tourne le dos et n'a pas l'air d'avoir remarqué ta présence.
@@ -273,7 +281,7 @@ interplanétaire caché dans ta botte gauche à la seule personne en mesure de t
                 screen,
                 image="""
              ________________________________________________
-            /                                                \
+            /                                                \\
            |    _________________________________________     |
            |   |                                         |    |
            |   |  ? spaceshipctl open vandervecken       |    |
@@ -290,8 +298,8 @@ interplanétaire caché dans ta botte gauche à la seule personne en mesure de t
            |   |                                         |    |
            |   |_________________________________________|    |
            |                                                  |
-            \_________________________________________________/
-                   \___________________________________/
+            \\_________________________________________________/
+                   \\___________________________________/
                 ___________________________________________
              _-'    .-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.  --- `-_
           _-'.-.-. .---.-.-.-.-.-.-.-.-.-.-.-.-.-.-.--.  .-.-.`-_
@@ -325,10 +333,10 @@ voyage à travers les étoiles.
                 image="""
     ___________
    '._==_==_=_.'
-   .-\:      /-.
+   .-\\:      /-.
   | (|:.     |) |
    '-|:.     |-'
-     \::.    /
+     \\::.    /
       '::. .'
         ) (
       _.' '._.
@@ -359,19 +367,19 @@ Prochaine mission : Explorer Saturne
          .              .                .
           0     .                  Programmation: Tristan et Vincent
                  .          .      Création : Maison JOLU            ,                ,    ,
- .          \          .           D'après un livre dont vous êtes le héros
-      .      \   ,                 Le mercenaire de l'espace de Andrew Chapman
+ .          \\          .           D'après un livre dont vous êtes le héros
+      .      \\   ,                 Le mercenaire de l'espace de Andrew Chapman
    .          o     .              (Gallimard Jeunesse - 1999)        .                   .            .
-     .         \                 ,             .                .
-               #\##\#      .                              .        .
-             #  #O##\###                .                        .
-   .        #*#  #\##\###                       .                     ,
-        .   ##*#  #\##\##               .                     .
+     .         \\                 ,             .                .
+               #\\##\\#      .                              .        .
+             #  #O##\\###                .                        .
+   .        #*#  #\\##\\###                       .                     ,
+        .   ##*#  #\\##\\##               .                     .
       .      ##*#  #1984#         .                             ,       .
-          .     *#  #\#     .                    .             .          ,
-                      \          .                         .
-____^/\___^--____/\____O______________/\/\---/\___________---______________
-   /\^   ^  ^    ^                  ^^ ^  '\ ^          ^       ---
+          .     *#  #\\#     .                    .             .          ,
+                      \\          .                         .
+____^/\\___^--____/\\____O______________/\\/\\---/\\___________---______________
+   /\\^   ^  ^    ^                  ^^ ^  '\\ ^          ^       ---
          --           -            --  -      -         ---  __       ^
    --  __                      ___--  ^  ^                         --  __
                 """,

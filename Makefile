@@ -6,7 +6,7 @@ venv:
 	python3 -m pipx ensurepath
 	pipx install virtualenv
 	virtualenv venv
-	source .venv/bin/activate
+	. .venv/bin/activate
 
 install: venv
 	pip3 install -r ./requirements.txt
