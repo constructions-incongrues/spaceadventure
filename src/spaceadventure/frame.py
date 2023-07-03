@@ -33,9 +33,11 @@ class SpaceAdventureFrame(Frame):
         if (event is not None and isinstance(event, KeyboardEvent) and event.key_code == 10):
             self.save()
 
-            if (self.answers is True or self.data["answer"].lower() in self.answers):
-                raise NextScene
-
-            return None
+            try:
+                if (self.answers is True or self.data["answer"].lower() in self.answers):
+                    raise NextScene
+                return None
+            except(TypeError):
+                return super(SpaceAdventureFrame, self).process_event(event)
         else:
             return super(SpaceAdventureFrame, self).process_event(event)

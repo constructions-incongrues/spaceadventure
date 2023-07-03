@@ -72,16 +72,8 @@ def run(screen, scene):
    .  /___////_   /  |   / _/    (_____ \  \\       _./ ..__/
      /___/__/_ \ /  _|  /__/ _-- (_____  \:_\\_____________/      ._
  _  /         \ /_.' | /  /       (_________/ ~~-|
-   /           //   _|/  /-              .    __ |..~. _____ -.. '  "
- ..\==========/'   \_/ _/  __      ___..     /  \|
-     / _____  \'.______/___....------......__\__/|
- '  |          \     |\__________________|__|___/|  ~~~~~..   - ~  '
-  ~ |        _  \   /~      \     \ --  /         \
-    | | | | | \_|  |   \     \ ~      //           |
- _. |_| | | | .    |-----..   \       /  /-      __|..~. _____ -.. '  "
-      |_|_|_|   _. |       \_  \\ _ ./          ___|
                 ''',
-                message="""""
+                message="""
 Salut inconnu.e, soit le bienvenu dans le jeu Space Adventure.
 Nous comptons sur ton courage, ta coopération et ta réfléxion pour avancer dans les différentes quêtes.
 Je vois que tu es prêt à relever ce défi.
@@ -204,7 +196,7 @@ pour mettre un terme aux sombres machinations de Cyrus
         Scene([
             SpaceAdventureFrame(
                 screen,
-                image="""
+                image=r'''
                            __.--|~|--.__                              ,,;/;
                          /~     | |    ;~\                          ,;;;/;;'
                         /|      | |    ;~\\                      ,;;;;/;;;'
@@ -230,24 +222,7 @@ pour mettre un terme aux sombres machinations de Cyrus
 /~ _.-~~~-._\    /~/   ;;;;;;;/;;;;;;;'          |    | |       / ~/_-'|-   /|
 (/~         \| /' |   ;;;;;;/;;;;;;;;            ;   | |       (.-~;  /-   / |
 |            /___ `-,;;;;;/;;;;;;;;'            |   | |      ,/)  /  /-   /  |
- \            \  `-.`---/;;;;;;;;;' |          _'   | |    /'('  /  /|- _/  //
-   \           /~~/ `-. |;;;;;''    ______.--~~ ~\  | |  ,~)')  /   | \~-==//
-     \      /~(   `-\  `-.`-;   /|    ))   __-####\ | |   (,   /|    |  \
-       \  /~.  `-.   `-.( `-.`~~ /##############'~~)| |   '   / |    |   ~\
-        \(   \    `-._ /~)_/|  /############'       |X|      /  \     \_\  `\
-        ,~`\  `-._  / )#####|/############'   /     | |  _--~ _/ | .-~~____--'
-       ,'\  `-._  ~)~~ `################'           | | ((~>/~   \ (((' -_
-     ,'   `-.___)~~      `#############             | |           ~-_     ~\_
- _.,'        ,'           `###########              | |            _-~-__    (
-|  `-.     ,'              `#########       \       | |          ((.-~~~-~_--~
-`\    `-.;'                  `#####"                | |           "     ((.-~~
-  `-._   )               \     |   |        .       |  \                 "
-      `~~  _/                  |    \               |   `---------------------
-        |/~                `.  |     \        .     |  O    __.---------------
-         |                   \ ;      \             |   _.-~
-         |                    |        |            |  /  |
-          |                   |         |           |/'  |
-                """,
+                ''',
                 message="""
 Félicitation !
 Tu es dorénavant un "Mercenaire de l'espace".
@@ -257,7 +232,7 @@ Pour y affronter Cyrus et les créatures qui le protègent.
 > Quel équipement choisiras-tu pour t'aider dans ta mission ?
 
                 """,
-                answers=True
+                answers=False
             ),
             Stars(screen, screen.width)
         ]),
@@ -343,12 +318,6 @@ interplanétaire caché dans ta botte gauche à la seule personne en mesure de t
            |    _________________________________________     |
            |   |                                         |    |
            |   |  ? spaceshipctl open vandervecken       |    |
-           |   |                                         |    |
-           |   |                                         |    |
-           |   |                                         |    |
-           |   |                                         |    |
-           |   |                                         |    |
-           |   |                                         |    |
            |   |                                         |    |
            |   |                                         |    |
            |   |                                         |    |
