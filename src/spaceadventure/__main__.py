@@ -259,7 +259,7 @@ Pour y affronter Cyrus et les créatures qui le protègent.
                 message="""
 Tu arpentes la coursive et découvre deux portes. 
 L'une est noire, comme on en voit au plus profond des galaxies.
-L'autre brille d'un blanc éclatant, presque aveuglant..
+L'autre brille d'un blanc éclatant, presque aveuglant.
 
 > De quelle couleur est la porte que tu décides d'ouvrir ?
                 """,
