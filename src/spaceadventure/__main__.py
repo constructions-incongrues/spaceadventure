@@ -32,9 +32,8 @@ def title(screen):
 def run(screen, scene):
     scenes = [
         # title
-        transition.noise(screen, duration=30),
+        transition.noise(screen, duration=10),
         title(screen),
-        transition.julia(screen, duration=15),
 
         # 01
         Scene([
@@ -52,7 +51,7 @@ Je vois que tu es prêt à relever ce défi.
             ),
             Stars(screen, 200)
         ]),
-        transition.julia(screen, duration=15),
+        transition.noise(screen, duration=5),
 
         # 02
         Scene([
@@ -93,6 +92,7 @@ Au-dessus de votre planète se dessine l'ombre inquiétante d'un vaisseau spatia
             ),
             Stars(screen, 200)
         ]),
+        transition.noise(screen, duration=5),
 
         # 02
         Scene([
@@ -128,6 +128,7 @@ se prépare à soumettre votre monde à ses effroyables expériences.
             ),
             Stars(screen, 200)
         ]),
+        transition.noise(screen, duration=5),
 
         # 03
         Scene([
@@ -191,7 +192,7 @@ Félicitation ! Tu as été promu "Mercenaire de l'espace".
 Tu vas devoir t'introduire dans le Vandervecken, un univers de pièges diaboliques,
 pour y affronter Cyrus et les créatures qui le protègent.
 
-> Quel équipement choisis-tu pour t'aider dans ta mission ?
+> Quel équipement choisis-tu pour t'aider dans ta mxission ?
 
                 """,
                 answers=True
