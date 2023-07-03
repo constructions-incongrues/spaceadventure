@@ -5,6 +5,7 @@ from asciimatics.scene import Scene
 from asciimatics.screen import Screen
 from asciimatics.renderers import FigletText
 from frame import SpaceAdventureFrame
+import transition
 import sys
 
 def _unhandled_input(event):
