@@ -28,7 +28,7 @@ def title(screen):
         Print(screen,
               SpeechBubble("Appuyez sur ENTREE pour commencer"),
               y=screen.height - 3,
-              start_frame=300)
+              start_frame=5)
     ]
 
     return Scene(effects, -1)
