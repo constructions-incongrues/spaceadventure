@@ -12,7 +12,6 @@ make start
 
 - [] Lancement du jeu via commande : start
 - [] Mettre en couleur "1999" sur l'écran "Crédits'
-- [] Afficher écran crédits
 - [] Changer titre par "Opération Edena"
 - [] Message d'erreur si choix de la mauvaise porte
 - [] Embranchement porte piège
@@ -21,12 +20,12 @@ make start
 - [] Changer couleur saisie commande.
 - [] intro à modifier : 
 -
-Salut, je suis Andrew Chapman, auteur d'ouvrages de jeux de rôles. 
-Es-tu prêt à vivre ma dernière aventue ? 
 
-Nationalité : Royaume-Uni
-Né(e) : 1960
-Biographie :
+
+
+Quel est-ton nom cosmonaute ? 
+
+
 
 ## ASCII A MODIFIER : 
 
