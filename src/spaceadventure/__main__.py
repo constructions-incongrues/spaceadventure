@@ -5,7 +5,6 @@ from asciimatics.scene import Scene
 from asciimatics.screen import Screen
 from asciimatics.renderers import FigletText
 from frame import SpaceAdventureFrame
-import transition
 import sys
 
 def _unhandled_input(event):
@@ -234,33 +233,24 @@ Tu arpentes la coursive et découvre deux portes. L'une est noire, comme on en v
             SpaceAdventureFrame(
                 screen,
                 image="""
-               /|
-  _______________)|.. 
-<'______________<(,_|) 
-           .((()))| )) << YEAAYAAAAEAAAARGH!! >>
-           (======)| \\
-          ((( "_"()|_ \\
-         '()))(_)/_/ ' )
-         .--/_\\ /(  /./
-        /'._.--\\ .-(_/
-       / / )\\___:___) 
-      ( -.'.._  |  /
-       \\  \\_\\ ( | )
-        '. /\\)_(_)|
-          '-|  XX |
-           %%%%%%%%
-          / %%%%%%%\\
-         ( /.-'%%%. \\ 
-        /(.'   %%\\ :|
-       / ,|    %  ) )
-     _|___)   %  (__|_
-     )___/       )___(
-      |x/      mrf\\ >
-      |x)         / '.
-      |x\\       _(____''.__
-    --\\ -\\--
-     --\\__|--
-                """,
+   -. -. `.  / .-' _.'  _
+     .--`. `. `| / __.-- _' `
+    '.-.  \  \ |  /   _.' `_
+    .-. \  `  || |  .' _.-' `.
+  .' _ \ '  -    -'  - ` _.-.
+   .' `. %%%%%   | %%%%% _.-.`-
+ .' .-. ><(@)> ) ( <(@)>< .-.`.
+   (("`(   -   | |   -   )'"))
+  / \\#)\    (.(_).)    /(#//\
+ ' / ) ((  /   | |   \  )) (`.`.
+ .'  (.) \ .md88o88bm. / (.) \)
+   / /| / \ `Y88888Y' / \ | \ \
+ .' / O  / `.   -   .' \  O \ \\
+  / /(O)/ /| `.___.' | \\(O) \
+   / / / / |  |   |  |\  \  \ \
+   / / // /|  |   |  |  \  \ \  VK
+ _.--/--/'( ) ) ( ) ) )`\-\-\-._
+( ( ( ) ( ) ) ( ) ) ( ) ) ) ( ) ) """,
                 message="""
 La porte s'ouvre, Cyrus est aux commandes de la console de pilotage. Il te tourne le dos et n'a pas l'air d'avoir remarqué ta présence.
 C'est l'occasion rêvée pour l'estourbir sans effort ! Tu t'approches discrètement du fauteuil où est assez confortablement... UN MANEQUIN !
