@@ -18,11 +18,11 @@ def title(screen):
     effects = [
         Cycle(
             screen,
-            FigletText("SPACE", font='big'),
+            FigletText("OPERATION", font='big'),
             int(screen.height / 2 - 8)),
         Cycle(
             screen,
-            FigletText("ADVENTURE", font='big'),
+            FigletText("EDENA", font='big'),
             int(screen.height / 2 + 3)),
         Stars(screen, screen.width),
         Print(screen,

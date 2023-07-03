@@ -10,9 +10,9 @@ make start
 
 ## TODO
 
+- [X] Changer titre par "Opération Edena"
 - [] Lancement du jeu via commande : start
 - [] Mettre en couleur "1999" sur l'écran "Crédits'
-- [] Changer titre par "Opération Edena"
 - [] Message d'erreur si choix de la mauvaise porte
 - [] Embranchement porte piège
 
