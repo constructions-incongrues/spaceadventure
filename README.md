@@ -21,7 +21,12 @@ make start
 [] ecran horloge "modifier phrase
 - [] Changer promu par Tu es
 - [] Changer couleur saisie commande.
+- [] intro à modifier : 
+Nationalité : Royaume-Uni
+Né(e) : 1960
+Biographie :
 
+Andrew Chapman est auteur d'ouvrages de jeux de rôles
 ## ASCII A MODIFIER : 
 
                            __.--|~|--.__                              ,,;/;
