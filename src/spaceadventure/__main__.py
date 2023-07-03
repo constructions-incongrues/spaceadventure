@@ -320,7 +320,7 @@ voyage à travers les étoiles.
 > Quelle est la commande qui t'a sauvé ?
 
                                 """,
-                answers=["spaceshipctl open vandervecken]
+                answers=["spaceshipctl open vandervecken"]
             ),
             Stars(screen, 200)
         ]),
