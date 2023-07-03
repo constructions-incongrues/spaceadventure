@@ -86,7 +86,7 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 Au-dessus de votre planète se dessine l'ombre inquiétante d'un vaisseau spatial.
 
 > Quel est son matricule ?
-> X-Wing | NCC-1701-J | Odysseus | Ariane | Enterprise | Arwing | Vandervecken | Nebuchadnezzar  
+> X-Wing | NCC-1701-J | Odysseus | Ariane | Enterprise | Arwing | Vandervecken | Nebuchadnezzar
                 """,
                 answers=["vandervecken"]
             ),
@@ -188,7 +188,7 @@ pour mettre un terme aux sombres machinations de Cyrus
  /___________\\'  |`._______ ,;;;;;;/;;;;;;'_______ /   : \\/'/'
                 """,
                 message="""
-Félicitation ! 
+Félicitation !
 Tu as été promu "Mercenaire de l'espace".
 Tu vas devoir t'introduire dans le Vandervecken.
 Pour y affronter Cyrus et les créatures qui le protègent.
@@ -222,8 +222,8 @@ Pour y affronter Cyrus et les créatures qui le protègent.
                 """,
                 message="""
 Tu arpentes la coursive et découvre deux portes. 
-L'une est noire, comme on en voit au plus profond des galaxies. 
-L'autre brille d'un blanc éclatant, presque aveuglant.
+L'une est noire, comme on en voit au plus profond des galaxies.
+L'autre brille d'un blanc éclatant, presque aveuglant..
 
 > De quelle couleur est la porte que tu décides d'ouvrir ?
                 """,
@@ -256,11 +256,11 @@ L'autre brille d'un blanc éclatant, presque aveuglant.
  _.--/--/'( ) ) ( ) ) )`\\-\\-\\-._
 ( ( ( ) ( ) ) ( ) ) ( ) ) ) ( ) ) """,
                 message="""
-La porte s'ouvre, Cyrus est aux commandes de la console de pilotage. 
+La porte s'ouvre, Cyrus est aux commandes de la console de pilotage.
 Il te tourne le dos et n'a pas l'air d'avoir remarqué ta présence.
-C'est l'occasion rêvée pour l'estourbir sans effort ! 
+C'est l'occasion rêvée pour l'estourbir sans effort !
 Tu t'approches discrètement du fauteuil où est assez confortablement... UN MANEQUIN !
-C'était un piège, Cyrus surgit d'une encoignure et te désarme. 
+C'était un piège, Cyrus surgit d'une encoignure et te désarme.
 Il ne te reste plus qu'une chance : envoyer un message d'urgence depuis le transmetteur
 interplanétaire caché dans ta botte gauche à la seule personne en mesure de te sauver la mise.
 
@@ -308,7 +308,7 @@ interplanétaire caché dans ta botte gauche à la seule personne en mesure de t
                 """,
                 message="""
 Voilà déjà presque neuf nanosecondes que ton appel de détresse est parti et James n'est toujours pas là !
-T'aurait-il oublié ? 
+T'aurait-il oublié ?
 Cela n'a plus d'importance : dans moins d'une nanosecondes il en sera fini de toi et de toute l'Humanité.
 Alors que Cyrus s'apprête à te porter un coup fatal, un bourdonnement terrible enfle dans la cabine et tout d'un coup
 ce sont tous les écrans de contrôles de la pièce qui diffusent la même image : celle de James le Cyber-Mercenaire riant aux éclats.
@@ -354,7 +354,7 @@ voyage à travers les étoiles.
                       \\
                 """,
                 message="""
-Victoire ! 
+Victoire !
 Le vaisseau Vandervecken est sous controle.
 Cyrus est neutralisé.
 Votre mission est désormais terminé.
