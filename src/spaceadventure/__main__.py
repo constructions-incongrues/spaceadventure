@@ -362,9 +362,9 @@ Prochaine mission : Explorer Saturne
   .         .                     .       .           .      .        .
         o                             .                   .
          .              .                .
-          0     .                  Programmation: Tristan
+          0     .                  Programmation: Tristan et Vincent
                  .          .      Création : Maison JOLU            ,                ,    ,
- .          \          .           Un livre dont vous êtes le héros
+ .          \          .           D'après un livre dont vous êtes le héros
       .      \   ,                 Le mercenaire de l'espace de Andrew Chapman
    .          o     .              (Gallimard Jeunesse - 1999)        .                   .            .
      .         \                 ,             .                .
