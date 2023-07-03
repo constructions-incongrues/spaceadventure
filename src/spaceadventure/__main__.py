@@ -149,8 +149,8 @@ se prépare à soumettre votre monde à ses effroyables expériences.
           '-.,___,.-'
                 """,
                 message="""
-ll n'y a plus un instant à perdre :
-les autorités ont fait appel à la Guilde des Mercenaires de l'espace
+ll n'y a plus un instant à perdre !
+Les autorités ont fait appel à la Guilde des Mercenaires de l'espace
 pour mettre un terme aux sombres machinations de Cyrus
 
 > Souhaites-tu intégrer la Guilde des Mercenaires ?
