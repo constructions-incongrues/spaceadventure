@@ -13,13 +13,11 @@ make start
 - [] Lancement du jeu via commande : start
 - [] Mettre en couleur "1999" sur l'écran "Crédits'
 - [] Afficher écran crédits
-- [] Ecran "Victoire"
-- [] Feu d'artifice https://asciinema.org/a/94454
+
 - [] Message d'erreur si choix de la mauvaise porte
 - [] Embranchement porte piège
-- [] Changer la phrase par À son bord, le savant dément,se prépare à soumettre  à ses effroyables expériences.
+
 [] ecran horloge "modifier phrase
-- [] Changer promu par Tu es
 - [] Changer couleur saisie commande.
 - [] intro à modifier : 
 Nationalité : Royaume-Uni
@@ -130,11 +128,11 @@ Andrew Chapman est auteur d'ouvrages de jeux de rôles
    __~~..   - ~  ' /___      ----\ /--...___      \
                   /    ..--      | | __..     ___./  .     .   ~
       - ~  '..    \  __________./  |_____________/  .   - ~  ' ~~~~
-  ..._____~~~~~~JRO\___________/    \___________/  -_______...._____
+  ..._____~~~~~~   \___________/    \___________/  -_______...._____
 ..            ___ . ~~~~~~~~~~~. __\ ~~~~~~~~~~~~~...      _  ~
 __    ....         ''        ...""       ....'''      -_~~~     ~~~...
 
-              .-.      .-.
+                         -.      .-.
                   _..--'`;;`-..-';;'`--.._
                 .';,    _   `;;'   _    ,;`.
                ;;'  `;;' `;.`;;'.;' `;;'  `;;
@@ -147,7 +145,7 @@ __    ....         ''        ...""       ....'''      -_~~~     ~~~...
                 `;._.;;' .:`::::':. `;;._.;'
            .::::. `::   (:._.::._.:)   ::' .::::.
       .:::::'  `::.`:_.--.`:::::. .--._:'.::'  `:::::.
-    .::'     `:.MJP `::-.:::"""":::.-::'   `::      `::.
+    .::'     `:.    `::-.:::"""":::.-::'   `::      `::.
   .::'      .::'      | /.^^^..^^^.\ |      `::        `:.
   :::      .:'::.     \( `;;;..;;;' )/     .::::       :::
   ::  :  .:':.  `::.   \            /   .::'  .:     .  ::
