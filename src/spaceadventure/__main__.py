@@ -3,7 +3,7 @@ from asciimatics.effects import Stars, Cycle, RandomNoise, Julia
 from asciimatics.exceptions import NextScene, ResizeScreenError
 from asciimatics.scene import Scene
 from asciimatics.screen import Screen
-from asciimatics.renderers import FigletText, Rainbow
+from asciimatics.renderers import FigletText
 from frame import SpaceAdventureFrame
 import transition
 import sys
