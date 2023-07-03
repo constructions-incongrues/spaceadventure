@@ -26,7 +26,7 @@ def title(screen):
             int(screen.height / 2 + 3)),
         Stars(screen, screen.width),
         Print(screen,
-              SpeechBubble("Appuyez sur entrée pour commencer"),
+              SpeechBubble("Appuyez sur ENTREE pour commencer"),
               y=screen.height - 3,
               start_frame=300)
     ]
