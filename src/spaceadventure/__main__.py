@@ -86,7 +86,7 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 Au-dessus de votre planète se dessine l'ombre inquiétante d'un vaisseau spatial.
 
 > Quel est son matricule ?
-> X-Wing | NCC-1701-J | Vandervecken | Aloha-Oe | Cyrus
+> X-Wing | NCC-1701-J | Odysseus | Ariane | Enterprise | Arwing | Vandervecken | Nebuchadnezzar  
                 """,
                 answers=["vandervecken"]
             ),
@@ -188,9 +188,10 @@ pour mettre un terme aux sombres machinations de Cyrus
  /___________\\'  |`._______ ,;;;;;;/;;;;;;'_______ /   : \\/'/'
                 """,
                 message="""
-Félicitation ! Tu as été promu "Mercenaire de l'espace".
-Tu vas devoir t'introduire dans le Vandervecken, un univers de pièges diaboliques,
-pour y affronter Cyrus et les créatures qui le protègent.
+Félicitation ! 
+Tu as été promu "Mercenaire de l'espace".
+Tu vas devoir t'introduire dans le Vandervecken.
+Pour y affronter Cyrus et les créatures qui le protègent.
 
 > Quel équipement choisiras-tu pour t'aider dans ta mission ?
 
@@ -220,7 +221,9 @@ pour y affronter Cyrus et les créatures qui le protègent.
 
                 """,
                 message="""
-Tu arpentes la coursive et découvre deux portes. L'une est noire, comme on en voit au plus profond des galaxies. L'autre brille d'un blanc éclatant, presque aveuglant..
+Tu arpentes la coursive et découvre deux portes. 
+L'une est noire, comme on en voit au plus profond des galaxies. 
+L'autre brille d'un blanc éclatant, presque aveuglant..
 
 > De quelle couleur est la porte que tu décides d'ouvrir ?
                 """,
@@ -253,9 +256,12 @@ Tu arpentes la coursive et découvre deux portes. L'une est noire, comme on en v
  _.--/--/'( ) ) ( ) ) )`\\-\\-\\-._
 ( ( ( ) ( ) ) ( ) ) ( ) ) ) ( ) ) """,
                 message="""
-La porte s'ouvre, Cyrus est aux commandes de la console de pilotage. Il te tourne le dos et n'a pas l'air d'avoir remarqué ta présence.
-C'est l'occasion rêvée pour l'estourbir sans effort ! Tu t'approches discrètement du fauteuil où est assez confortablement... UN MANEQUIN !
-C'était un piège, Cyrus surgit d'une encoignure et te désarme. Il ne te reste plus qu'une chance : envoyer un message d'urgence depuis le transmetteur
+La porte s'ouvre, Cyrus est aux commandes de la console de pilotage. 
+Il te tourne le dos et n'a pas l'air d'avoir remarqué ta présence.
+C'est l'occasion rêvée pour l'estourbir sans effort ! 
+Tu t'approches discrètement du fauteuil où est assez confortablement... UN MANEQUIN !
+C'était un piège, Cyrus surgit d'une encoignure et te désarme. 
+Il ne te reste plus qu'une chance : envoyer un message d'urgence depuis le transmetteur
 interplanétaire caché dans ta botte gauche à la seule personne en mesure de te sauver la mise.
 
 > Comment s'appelle cette personne ?
@@ -302,7 +308,8 @@ interplanétaire caché dans ta botte gauche à la seule personne en mesure de t
                 """,
                 message="""
 Voilà déjà presque neuf nanosecondes que ton appel de détresse est parti et James n'est toujours pas là !
-T'aurait-il oublié ? Cela n'a plus d'importance : dans moins d'une nanosecondes il en sera fini de toi et de toute l'Humanité.
+T'aurait-il oublié ? 
+Cela n'a plus d'importance : dans moins d'une nanosecondes il en sera fini de toi et de toute l'Humanité.
 Alors que Cyrus s'apprête à te porter un coup fatal, un bourdonnement terrible enfle dans la cabine et tout d'un coup
 ce sont tous les écrans de contrôles de la pièce qui diffusent la même image : celle de James le Cyber-Mercenaire riant aux éclats.
 Il semble te faire un clin d'œil puis enfonce la touche entrée de son clavier, ouvrant ainsi le sas de décompression de la cabine.
@@ -371,15 +378,15 @@ Prochaine mission : Explorer Saturne
          .              .                .
           0     .                  Programmation: Tristan et Vincent
                  .          .      Création : Maison JOLU            ,                ,    ,
- .          \\          .           D'après un livre dont vous êtes le héros
-      .      \\   ,                 Le mercenaire de l'espace de Andrew Chapman
+ .          \\          .          D'après un livre dont vous êtes le héros
+      .      \\   ,                Le mercenaire de l'espace de Andrew Chapman
    .          o     .              (Gallimard Jeunesse - 1999)        .                   .            .
      .         \\                 ,             .                .
                #\\##\\#      .                              .        .
              #  #O##\\###                .                        .
    .        #*#  #\\##\\###                       .                     ,
         .   ##*#  #\\##\\##               .                     .
-      .      ##*#  #1984#         .                             ,       .
+      .      ##*#  #\\##\#         .                             ,       .
           .     *#  #\\#     .                    .             .          ,
                       \\          .                         .
 ____^/\\___^--____/\\____O______________/\\/\\---/\\___________---______________
