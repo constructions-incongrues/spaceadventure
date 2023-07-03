@@ -355,7 +355,7 @@ voyage à travers les étoiles.
         ]),
 
         # 07
-        transition.fireworks(screen, duration=60),
+        transition.fireworks(screen, duration=150),
 
         # 08
         Scene([
