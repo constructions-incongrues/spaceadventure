@@ -45,7 +45,7 @@ Salut inconnu.e, soit le bienvenu dans le jeu Space Adventure.
 Nous comptons sur ton courage, ta coopération et ta réfléxion pour avancer dans les différentes quêtes.
 Je vois que tu es prêt à relever ce défi.
 
-> Comment t'appelles-tu ?
+> Comment t'appelles-tu, cosmonaute ?
                 """,
                 answers=["jimmy"]
             ),
@@ -192,7 +192,7 @@ Félicitation ! Tu as été promu "Mercenaire de l'espace".
 Tu vas devoir t'introduire dans le Vandervecken, un univers de pièges diaboliques,
 pour y affronter Cyrus et les créatures qui le protègent.
 
-> Quel équipement choisis-tu pour t'aider dans ta mxission ?
+> Quel équipement choisiras-tu pour t'aider dans ta mission ?
 
                 """,
                 answers=True
