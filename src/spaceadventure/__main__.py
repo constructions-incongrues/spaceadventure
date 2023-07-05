@@ -74,9 +74,8 @@ def run(screen, scene):
  _  /         \ /_.' | /  /       (_________/ ~~-|
                 ''',
                 message="""
-Salut inconnu.e, soit le bienvenu dans le jeu Space Adventure.
-Nous comptons sur ton courage, ta coopération et ta réfléxion pour avancer dans les différentes quêtes.
-Je vois que tu es prêt à relever ce défi.
+La Terre est en grand danger et tu es la seule chance qu’il lui reste.
+Il te faudra faire preuve d’autant d’ingéniosité que de courage pour espérer la sauver.
 
 > Quel est ton nom, cosmonaute ?
                 """,
@@ -116,9 +115,11 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
        +         .        '   .    .  ////////000000000HHHHHHHHMMMMMMhs
                 """,
                 message="""
-Au-dessus de votre planète se dessine l'ombre inquiétante d'un vaisseau spatial.
+Au-dessus de votre planète orbite un vaisseau spatial aux contours inquiétants.
+C’est en te rendant à son bord que tu pourras mettre un terme à la menace qui pèse sur la planète.
+Tu sors ton fidèle téléporteur TMGF-200X de ta poche pour y entrer la destination.
 
-> Quel est son matricule ?
+> Quel est le matricule du vaisseau ?
 > X-Wing | NCC-1701-J | Odysseus | Ariane | Enterprise | Arwing | Vandervecken | Nebuchadnezzar
                 """,
                 answers=["vandervecken"]
@@ -152,9 +153,10 @@ Au-dessus de votre planète se dessine l'ombre inquiétante d'un vaisseau spatia
   :  ::  .   :     `::.              .::'     :  :   ::  :
                 """,
                 message="""
-À son bord, le savant dément, se prépare à soumettre à ses effroyables expériences.
+En enquêtant sur le vaisseau, tu y découvres le laboratoire d’un savant dément, prêt à faire subir à la Terre de terribles expérimentations.
+Il faut absolument empêcher le savant d’agir !
 
-> Découvre l'identité du commandant et communique son nom à ton équipage.
+> Quel est son nom ?
                 """,
                 answers=["cyrus"]
             ),
@@ -181,11 +183,10 @@ Au-dessus de votre planète se dessine l'ombre inquiétante d'un vaisseau spatia
           '-.,___,.-'
                 """,
                 message="""
-ll n'y a plus un instant à perdre !
-Les autorités ont fait appel à la Guilde des Mercenaires de l'espace
-pour mettre un terme aux sombres machinations de Cyrus
+Il n'y a plus un instant à perdre !
+Les autorités font appel à la Guilde des Mercenaires de l'Espace pour mettre un terme aux sombres machinations de Cyrus.
 
-> Souhaites-tu intégrer la Guilde des Mercenaires ?
+> Souhaites-tu intégrer la Guilde des Mercenaires de l’Espace ?
                 """,
                 answers=["oui"]
             ),
@@ -224,13 +225,10 @@ pour mettre un terme aux sombres machinations de Cyrus
 |            /___ `-,;;;;;/;;;;;;;;'            |   | |      ,/)  /  /-   /  |
                 ''',
                 message="""
-Félicitation !
-Tu es dorénavant un "Mercenaire de l'espace".
-Tu vas devoir t'introduire dans le Vandervecken.
-Pour y affronter Cyrus et les créatures qui le protègent.
+Bravo ! Tu es à présent un Mercenaire de l’Espace !
+Tu vas devoir t'introduire dans le Vandervecken pour y affronter Cyrus et les créatures qui le protègent.
 
-> Quel équipement choisiras-tu pour t'aider dans ta mission ?
-
+> Quel équipement choisis-tu pour t'aider accomplir ta mission ?
                 """,
                 answers=False
             ),
@@ -257,11 +255,10 @@ Pour y affronter Cyrus et les créatures qui le protègent.
 
                 """,
                 message="""
-Tu arpentes la coursive et découvre deux portes. 
-L'une est noire, comme on en voit au plus profond des galaxies.
-L'autre brille d'un blanc éclatant, presque aveuglant.
+Bravo ! Tu es à présent un Mercenaire de l’Espace !
+Tu vas devoir t'introduire dans le Vandervecken pour y affronter Cyrus et les créatures qui le protègent.
 
-> De quelle couleur est la porte que tu décides d'ouvrir ?
+> Quel équipement choisis-tu pour t'aider accomplir ta mission ?
                 """,
                 answers=["noire", "blanche"]
             ),
@@ -301,7 +298,6 @@ Il ne te reste plus qu'une chance : envoyer un message d'urgence depuis le trans
 interplanétaire caché dans ta botte gauche à la seule personne en mesure de te sauver la mise.
 
 > Comment s'appelle cette personne ?
-
                                 """,
                 answers=["james"]
             ),
@@ -339,15 +335,12 @@ interplanétaire caché dans ta botte gauche à la seule personne en mesure de t
                 message="""
 Voilà déjà presque neuf nanosecondes que ton appel de détresse est parti et James n'est toujours pas là !
 T'aurait-il oublié ?
-Cela n'a plus d'importance : dans moins d'une nanosecondes il en sera fini de toi et de toute l'Humanité.
-Alors que Cyrus s'apprête à te porter un coup fatal, un bourdonnement terrible enfle dans la cabine et tout d'un coup
-ce sont tous les écrans de contrôles de la pièce qui diffusent la même image : celle de James le Cyber-Mercenaire riant aux éclats.
+Cela n'a plus d'importance : dans moins d'une nanosecondes il en sera fini de toi et de la planète natale de l’Humanité.
+Alors que Cyrus s'apprête à te porter un coup fatal, un bourdonnement terrible enfle dans la cabine et tout d'un coup ce sont tous les écrans de contrôles de la pièce qui diffusent la même image : celle de James le Cyber-Mercenaire riant aux éclats.
 Il semble te faire un clin d'œil puis enfonce la touche entrée de son clavier, ouvrant ainsi le sas de décompression de la cabine.
-Tes réflexes de Mercenaire de l'Espace te permettent de sauter hors de la cabine à temps pour voir Cyrus aspiré vers son dernier
-voyage à travers les étoiles.
+Tes réflexes de Mercenaire de l'Espace te permettent de sauter hors de la cabine à temps pour voir Cyrus aspiré vers son dernier voyage à travers les étoiles.
 
 > Quelle est la commande qui t'a sauvé ?
-
                                 """,
                 answers=["spaceshipctl open vandervecken"]
             ),
