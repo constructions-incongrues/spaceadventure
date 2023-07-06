@@ -255,10 +255,12 @@ Tu vas devoir t'introduire dans le Vandervecken pour y affronter Cyrus et les cr
 
                 """,
                 message="""
-Bravo ! Tu es à présent un Mercenaire de l’Espace !
-Tu vas devoir t'introduire dans le Vandervecken pour y affronter Cyrus et les créatures qui le protègent.
+Le vaisseau est un véritable labyrinthe.
+Au détour d’une coursive, tu te retrouves face à deux portes.
+L'une est noire et ne reflète même pas la lumière de ta lampe torche.
+L'autre rayonne d'un blanc éclatant qui te force à plisser les yeux.
 
-> Quel équipement choisis-tu pour t'aider accomplir ta mission ?
+> De quelle couleur est la porte que tu décides d'ouvrir ?
                 """,
                 answers=["noire", "blanche"]
             ),
