@@ -294,7 +294,7 @@ L'autre rayonne d'un blanc éclatant qui te force à plisser les yeux.
 La porte s'ouvre, Cyrus est aux commandes de la console de pilotage.
 Il te tourne le dos et n'a pas l'air d'avoir remarqué ta présence.
 C'est l'occasion rêvée pour l'estourbir sans effort !
-Tu t'approches discrètement du fauteuil où est assez confortablement... UN MANNEQUIN !
+Tu t'approches discrètement du fauteuil où est assis confortablement... UN MANNEQUIN !
 C'était un piège, Cyrus surgit d'une encoignure et te désarme.
 Il ne te reste plus qu'une chance : envoyer un message d'urgence depuis le transmetteur
 interplanétaire caché dans ta botte gauche à la seule personne en mesure de te sauver la mise.
