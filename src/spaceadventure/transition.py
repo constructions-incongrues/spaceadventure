@@ -52,7 +52,7 @@ def fireworks(screen, duration=10):
                          speed=1,
                          start_frame=100))
     effects.append(Print(screen,
-                         Rainbow(screen, FigletText("LA TEAM !")),
+                         Rainbow(screen, FigletText("JIMMY !")),
                          screen.height // 2 + 1,
                          speed=1,
                          start_frame=100))

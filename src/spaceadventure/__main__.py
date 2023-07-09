@@ -255,9 +255,10 @@ Tu vas devoir t'introduire dans le Vandervecken pour y affronter Cyrus et les cr
 
                 """,
                 message="""
-Tu arpentes la coursive et découvre deux portes.
-L'une est noire, comme on en voit au plus profond des galaxies. 
-L'autre brille d'un blanc éclatant, presque aveuglant.
+Le vaisseau est un véritable labyrinthe.
+Au détour d’une coursive, tu te retrouves face à deux portes.
+L'une est noire et ne reflète même pas la lumière de ta lampe torche.
+L'autre rayonne d'un blanc éclatant qui te force à plisser les yeux.
 
 > De quelle couleur est la porte que tu décides d'ouvrir ?
                 """,
@@ -293,7 +294,7 @@ L'autre brille d'un blanc éclatant, presque aveuglant.
 La porte s'ouvre, Cyrus est aux commandes de la console de pilotage.
 Il te tourne le dos et n'a pas l'air d'avoir remarqué ta présence.
 C'est l'occasion rêvée pour l'estourbir sans effort !
-Tu t'approches discrètement du fauteuil où est assez confortablement... UN MANNEQUIN !
+Tu t'approches discrètement du fauteuil où est assis confortablement... UN MANNEQUIN !
 C'était un piège, Cyrus surgit d'une encoignure et te désarme.
 Il ne te reste plus qu'une chance : envoyer un message d'urgence depuis le transmetteur
 interplanétaire caché dans ta botte gauche à la seule personne en mesure de te sauver la mise.
@@ -339,7 +340,8 @@ T'aurait-il oublié ?
 Cela n'a plus d'importance : dans moins d'une nanosecondes il en sera fini de toi et de la planète natale de l’Humanité.
 Alors que Cyrus s'apprête à te porter un coup fatal, un bourdonnement terrible enfle dans la cabine et tout d'un coup ce sont tous les écrans de contrôles de la pièce qui diffusent la même image : celle de Kirk le Cyber-Mercenaire riant aux éclats.
 Il semble te faire un clin d'œil puis enfonce la touche entrée de son clavier, ouvrant ainsi le sas de décompression de la cabine.
-Tes réflexes de Mercenaire de l'Espace te permettent de sauter hors de la cabine à temps pour voir Cyrus aspiré vers son dernier voyage à travers les étoiles.
+Tes réflexes de Mercenaire de l'Espace te permettent de sauter hors de la cabine à temps pour voir Cyrus aspiré vers son
+dernier voyage à travers les étoiles.
 
 > Quelle est la commande qui t'a sauvé ?
                                 """,
