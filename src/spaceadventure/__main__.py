@@ -18,11 +18,11 @@ def title(screen):
     effects = [
         Cycle(
             screen,
-            FigletText("OPERATION", font='big'),
+            FigletText("LE MERCENAIRE", font='big'),
             int(screen.height / 2 - 8)),
         Cycle(
             screen,
-            FigletText("EDENA", font='big'),
+            FigletText("DE L'ESPACE", font='big'),
             int(screen.height / 2 + 3)),
         Stars(screen, screen.width),
         Print(screen,
@@ -300,7 +300,7 @@ interplanétaire caché dans ta botte gauche à la seule personne en mesure de t
 
 > Comment s'appelle cette personne ?
                                 """,
-                answers=["james"]
+                answers=["kirk"]
             ),
             Stars(screen, screen.width)
         ]),
@@ -334,10 +334,10 @@ interplanétaire caché dans ta botte gauche à la seule personne en mesure de t
 `---._.-------------------------------------------------------------._.---'
                 """,
                 message="""
-Voilà déjà presque neuf nanosecondes que ton appel de détresse est parti et James n'est toujours pas là !
+Voilà déjà presque neuf nanosecondes que ton appel de détresse est parti et Kirk n'est toujours pas là !
 T'aurait-il oublié ?
 Cela n'a plus d'importance : dans moins d'une nanosecondes il en sera fini de toi et de la planète natale de l’Humanité.
-Alors que Cyrus s'apprête à te porter un coup fatal, un bourdonnement terrible enfle dans la cabine et tout d'un coup ce sont tous les écrans de contrôles de la pièce qui diffusent la même image : celle de James le Cyber-Mercenaire riant aux éclats.
+Alors que Cyrus s'apprête à te porter un coup fatal, un bourdonnement terrible enfle dans la cabine et tout d'un coup ce sont tous les écrans de contrôles de la pièce qui diffusent la même image : celle de Kirk le Cyber-Mercenaire riant aux éclats.
 Il semble te faire un clin d'œil puis enfonce la touche entrée de son clavier, ouvrant ainsi le sas de décompression de la cabine.
 Tes réflexes de Mercenaire de l'Espace te permettent de sauter hors de la cabine à temps pour voir Cyrus aspiré vers son dernier voyage à travers les étoiles.
 
